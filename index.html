@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rumana</title>
+
+    <style>
+        
+        header , .boxes {
+            display: flex;
+            justify-content: space-between;
+            width: 1100px;
+            margin:  20px auto;
+
+         }
+        .squareboxes {
+            display: flex;
+        }
+          .squareboxes .square{
+            width: 40px;
+            height:30px;
+            background-color: red;
+            margin-right: 20px;
+        }
+         .squareboxes .square:last-child{
+            margin-right: 0;
+         }
+        .circlebox {
+            display: flex;
+        }
+        .circlebox .circle {
+            width: 30px;
+           height:30px;
+           background-color: red;
+           border-radius: 50%;
+            margin-left: 20px;
+        }
+        .circlebox .circle:first-child{
+            margin-left:0;
+        }
+        .logo {
+             width: 100px;
+             height: 30px;
+             background-color: aqua;
+        }
+        .bigbluebox {
+            height: 500px;
+            width: 39%;
+        }
+        .bigbluebox, .bluebox{
+            background-color: blue;
+        }
+        .twoboxes {
+            display:flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 59%;
+        }
+        .bluebox {
+            width: 100%;
+            height:48%;
+
+        }
+    </style>
+</head>
+
+ <body>
+
+ <header>
+    <div class="squareboxes">
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+    </div>
+        
+        <div class="logo"></div>
+        <div class="circlebox">
+            <div class="circle"></div>
+          <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+    </header>
+    <div class="boxes">
+    <div class="bigbluebox"></div>
+    <div class="twoboxes">
+        <div class="bluebox"></div>
+        <div class="bluebox"></div>
+    </div>
+
+    </body>
+</html>
+
